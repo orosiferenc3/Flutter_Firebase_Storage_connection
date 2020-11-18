@@ -16,7 +16,7 @@ My Firebase Storage look like this:
 
 ## android/app
 
-You need to copy the google-services.json to android/app folder
+You need to copy the **google-services.json** to **android/app** folder
 
 ## pubspec.yaml
 
@@ -84,7 +84,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 ```
 
-void main() should look like this:
+void main should look like this:
 
 ```dart
 void main() async {
