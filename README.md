@@ -6,6 +6,7 @@ In this project I show you how to **get images** from Firebase Storage
 
 My Firebase Storage look like this:
 
+![image](https://user-images.githubusercontent.com/57065082/99569536-0b55ad00-29d1-11eb-815e-b321deb051d2.png)
 
 ## android/app
 
