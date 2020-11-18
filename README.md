@@ -95,16 +95,16 @@ In your code, where your image would be, you need to insert this code.
 
 ```dart
 FutureBuilder<dynamic>(
-              future: FirebaseStorage().ref('madar.jpg').getDownloadURL(),
-              builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot) {
-                if (snapshot.connectionState != ConnectionState.waiting) {
-                  return Image(
-                    image: CachedNetworkImageProvider(snapshot.data.toString()),
-                    fit: BoxFit.cover,
-                  );
-                } else {
-                  return Text('Loading image....');
-                }
-              },
-            ),
+  future: FirebaseStorage().ref('madar.jpg').getDownloadURL(),
+  builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot) {
+    if (snapshot.connectionState != ConnectionState.waiting) {
+    return Image(
+      image: CachedNetworkImageProvider(snapshot.data.toString()),
+      fit: BoxFit.cover,
+      );
+    } else {
+      return Text('Loading image....');
+    }
+  },
+),
 ```
