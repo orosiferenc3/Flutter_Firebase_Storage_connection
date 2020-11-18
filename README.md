@@ -1,11 +1,11 @@
 # Flutter and Firebase Storage connection
 
-In this project i show you how to get images from Firebase Storage
+In this project I show you how to **get images** from Firebase Storage
 
 ## Firebase Storage
 
 My Firebase Storage look like this:
-[picture]
+
 
 ## android/app
 
