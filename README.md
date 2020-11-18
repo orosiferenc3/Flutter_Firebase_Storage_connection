@@ -101,7 +101,7 @@ In your code, where your image would be, you need to insert this code.
 
 ```dart
 FutureBuilder<dynamic>(
-  future: FirebaseStorage().ref('madar.jpg').getDownloadURL(),
+  future: FirebaseStorage().ref('bird.jpg').getDownloadURL(),
   builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot) {
     if (snapshot.connectionState != ConnectionState.waiting) {
     return Image(
