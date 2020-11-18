@@ -1,6 +1,6 @@
 # Flutter and Firebase Storage connection
 
-In this project I show you how to **get images** from Firebase Storage.
+In this project I show you how to **get images** from Firebase Storage. **If you want to use this code you have to make your own Firebase project and you should copy your google-services.json to android/app folder.**
 
 The picture always got downloaded when you open the application.
 
