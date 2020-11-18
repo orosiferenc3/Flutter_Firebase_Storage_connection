@@ -28,26 +28,21 @@ dependencies:
 
 ## android/build.gradle
 
-Your android/build.gradle file should look like this:
+In your android/build.gradle file you need these codes:
 
 ```dart
 buildscript {
-    ext.kotlin_version = '1.3.50'
     repositories {
         google() // Google's Maven repository
-        jcenter()
     }
 
     dependencies {
         classpath 'com.google.gms:google-services:4.3.4' // Google Services plugin
-        classpath 'com.android.tools.build:gradle:3.5.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 allprojects {
     repositories {
         google() // Google's Maven repository
-        jcenter()
     }
 }
 ```
