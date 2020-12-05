@@ -46,7 +46,9 @@ buildscript {
         classpath 'com.google.gms:google-services:4.3.4' // Google Services plugin
     }
 }
-allprojects {
+```
+
+```allprojects {
     repositories {
         google() // Google's Maven repository
     }
