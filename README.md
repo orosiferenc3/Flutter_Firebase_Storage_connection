@@ -16,7 +16,7 @@ My Firebase Storage look like this:
 
 ## android/app
 
-You need to copy the **google-services.json** to **android/app** folder
+You need to copy the google-services.json to android/app folder
 
 ## pubspec.yaml
 
