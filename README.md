@@ -48,7 +48,8 @@ buildscript {
 }
 ```
 
-```allprojects {
+```dart
+allprojects {
     repositories {
         google() // Google's Maven repository
     }
